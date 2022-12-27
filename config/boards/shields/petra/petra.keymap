@@ -28,7 +28,7 @@
 	&trans  &trans  &trans  &trans  &trans  &trans &trans &trans  &trans   &trans   &trans   &trans  &trans &trans 
 	&trans  &trans  &trans  &trans  &trans  &trans &trans &trans  &trans   &trans   &trans   &trans  &trans &trans
 	&trans  &trans  &trans  &trans  &trans  &trans &trans &trans  &trans   &trans   &trans   &trans  &trans &trans
-	&tran  &trans   &trans                            &trans                &trans      &trans      &trans    &trans
+	&trans  &trans   &trans                            &trans                &trans      &trans      &trans    &trans
 			>;
 		};
     };
