@@ -1,2 +1,2 @@
-config SHIELD_MY_BOARD
+config SHIELD_PETRA
     def_bool $(shields_list_contains,petra)

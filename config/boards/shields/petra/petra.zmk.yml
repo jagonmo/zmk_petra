@@ -1,8 +1,8 @@
 file_format: '1'
 id: petra
-name: petra
+name: Petra
 type: shield
-url: https://github.com/criscol64/krstec
-requires: [nice_nano_v2]
+url: https://github.com/jagonmo/zmk_petra
+requires: [pro_micro]
 features:
   - keys
