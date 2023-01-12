@@ -1,5 +1,5 @@
 if SHIELD_PETRA
 
 config ZMK_KEYBOARD_NAME
-    default "petra"
+    default "Petra-76S"
 endif
