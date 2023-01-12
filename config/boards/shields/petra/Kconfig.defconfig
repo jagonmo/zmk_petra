@@ -4,3 +4,13 @@ config ZMK_KEYBOARD_NAME
     default "petra"
 
 endif
+
+config CONFIG_ZMK_RGB_UNDERGLOW
+    default y
+
+endif
+
+config CONFIG_WS2812_STRIP
+    default y
+
+endif
