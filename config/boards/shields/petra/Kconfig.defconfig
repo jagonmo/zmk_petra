@@ -2,11 +2,4 @@ if SHIELD_PETRA
 
 config ZMK_KEYBOARD_NAME
     default "petra"
-
-config CONFIG_ZMK_RGB_UNDERGLOW
-    default y
-
-config CONFIG_WS2812_STRIP
-    default y
-
 endif
