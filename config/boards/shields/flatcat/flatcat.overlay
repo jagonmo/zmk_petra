@@ -8,7 +8,7 @@
         zmk,matrix_transform = &default_transform;
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
-        gpio-leds = &blue_led;
+        gpio-leds = &led_0;
     };
     
     default_keyscan: kscan {
@@ -44,13 +44,11 @@
     };
 
 
-	leds {
-		compatible = "gpio-leds";
-		blue_led: led_0 {
-			gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
-			label = "Blue LED";
-		};
-	};
+    led_0: led_0 {
+        compatible = "gpio-leds";
+        gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;
+        label = "Blue LED";
+    };
 
 
     
