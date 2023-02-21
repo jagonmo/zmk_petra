@@ -8,7 +8,7 @@
         zmk,matrix_transform = &default_transform;
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
-        gpio-leds = &blue_led
+        gpio-leds = &blue_led;
     };
     
     default_keyscan: kscan {
