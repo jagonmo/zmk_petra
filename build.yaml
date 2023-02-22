@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: 
+  - board: holyiot_18010
     shield: flatcat
