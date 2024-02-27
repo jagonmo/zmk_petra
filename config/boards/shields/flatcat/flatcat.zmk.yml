@@ -1,6 +1,6 @@
 file_format: "1"
 id: flatcat
-name: flatcat 
+name: FlatCat
 type: shield
 requires: [pro_micro]
 features:
