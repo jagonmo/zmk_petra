@@ -1,7 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&kscan0 {
-	col-gpios
+/ {
+
+    chosen {
+        zmk,kscan = &default_keyscan;
+    };
+    
+    default_keyscan: kscan {
+        label = "default_keyscan";
+
+        col-gpios
 		= <&pro_micro 14 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 15 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 18 GPIO_ACTIVE_HIGH>
@@ -9,4 +17,5 @@
 		, <&pro_micro 20 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 21 GPIO_ACTIVE_HIGH>
 		;
+    };
 };
