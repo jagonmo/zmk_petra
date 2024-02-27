@@ -1,22 +1,23 @@
-if SHIELD_FLATCAT_DONGLE
-
-config ZMK_KEYBOARD_NAME
-	default "flatcat Dongle"
-	
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
+config ZMK_BLE
 	default y
-	
+
 config ZMK_USB
 	default y
 
+if SHIELD_FLATCAT_DONGLE
+config ZMK_KEYBOARD_NAME
+	default "FlatCat Dongle"
 endif
 
-if SHIELD_FLATCAT_KB || SHIELD_FLATCAT_DONGLE 
+if SHIELD_FLATCAT_KB
+config ZMK_SPLIT
+	default y
+endif
 
+if SHIELD_CARD_DONGLE 
 config ZMK_SPLIT
 	default y
 
-config ZMK_BLE
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
-	
 endif
