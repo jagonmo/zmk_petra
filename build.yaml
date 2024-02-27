@@ -15,3 +15,5 @@
 include:
   - board: nice_nano_v2
     shield: flatcat
+  - board: nice_nano_v2
+    shield: flatcat_dongle

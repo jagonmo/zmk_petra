@@ -1,2 +1,5 @@
+config SHIELD_FLATCAT_DONGLE
+	def_bool $(shields_list_contains,flatcat_dongle)
+
 config SHIELD_FLATCAT
-    def_bool $(shields_list_contains,flatcat)
+	def_bool $(shields_list_contains,flatcat)

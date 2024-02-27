@@ -1,0 +1,10 @@
+file_format: "1"
+id: flatcat
+name: flatcat 
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - flatcat
+  - flatcat_dongle
