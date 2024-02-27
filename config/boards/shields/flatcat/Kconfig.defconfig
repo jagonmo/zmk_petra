@@ -14,7 +14,7 @@ config ZMK_SPLIT
 	default y
 endif
 
-if SHIELD_CARD_DONGLE 
+if SHIELD_FLATCAT_DONGLE 
 config ZMK_SPLIT
 	default y
 
