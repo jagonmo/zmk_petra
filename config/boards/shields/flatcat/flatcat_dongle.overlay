@@ -1,9 +1,1 @@
- #include "flatcat.dtsi"
 
-/ {
-	default_keyscan: kscan {
-		compatible = "zmk,kscan-gpio-direct";
-		label = "default_keyscan";
-		input-gpios = <&gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-	};
-};
