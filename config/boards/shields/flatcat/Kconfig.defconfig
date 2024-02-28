@@ -9,7 +9,7 @@ config ZMK_KEYBOARD_NAME
 	default "FlatCat Dongle"
 endif
 
-if SHIELD_FLATCAT_KB
+if SHIELD_FLATCAT
 config ZMK_SPLIT
 	default y
 endif

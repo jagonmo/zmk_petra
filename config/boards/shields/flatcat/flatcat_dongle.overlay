@@ -1,1 +1,1 @@
-#include "flatcat.dtsi"
+#include "flatcat.overlay"
