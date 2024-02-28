@@ -14,6 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: flatcat
+    shield: card_left
   - board: nice_nano_v2
-    shield: flatcat_dongle
+    shield: card_right
+  - board: nice_nano_v2
+    shield: card_dongle
