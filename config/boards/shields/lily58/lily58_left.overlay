@@ -16,6 +16,6 @@
  
  &default_keyscan {
      col-gpios
-         = <&pro_micro 10 GPIO_ACTIVE_HIGH>
+         = <&gpio1 6  GPIO_ACTIVE_HIGH>
          ;
  };
