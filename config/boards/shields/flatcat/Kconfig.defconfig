@@ -1,5 +1,15 @@
-if SHIELD_FLATCAT
+if SHIELD_FLATCAT || SHIELD_FLATCAT_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "FlatCat"
+endif
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_FLATCAT ||  || SHIELD_FLATCAT_PERIPHERAL || SHIELD_FLATCAT_DONGLE
+
+config ZMK_SPLIT
+    default y
 endif
