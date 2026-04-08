@@ -14,5 +14,5 @@
 
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: flatcat
